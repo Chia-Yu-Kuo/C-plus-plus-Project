@@ -116,6 +116,7 @@ void Algorithm(vector<vector<double>> Table, vector<vector<int>>& RecomdList, co
 			}
 		}
 	}
+	/*
 	for (int i = 0; i < user_size; i++)
 	{
 		for (int j = 0; j < user_size; j++)
@@ -125,7 +126,7 @@ void Algorithm(vector<vector<double>> Table, vector<vector<int>>& RecomdList, co
 		cout << endl << "WWWWWWW" << endl;
 	}
 	cout << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl << endl;
-
+	*/
 	vector<vector<double>>totalscore_table_sort;
 	totalscore_table_sort = totalscore_table;
 
